@@ -1,0 +1,148 @@
+
+ .header {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #ef6c00;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 0px 0px 9px;
+  position: relative;
+  width: 100%;
+}
+
+ .aide {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+ .application {
+  color: transparent;
+  font-family: "Inder", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 188px;
+}
+
+ .span {
+  color: #fffffff5;
+}
+
+ .text-wrapper-3 {
+  color: #ffffffbd;
+}
+
+ .headerprofile {
+  align-items: center;
+  display: flex;
+  gap: 75px;
+  justify-content: flex-end;
+  position: relative;
+  width: 175px;
+}
+
+ .profile {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 5px 5px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+ .nameprofile {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3px;
+  position: relative;
+}
+
+ .name {
+  align-self: stretch;
+  color: transparent;
+  font-family: "Inder", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+ .text-wrapper-4 {
+  color: #ffffff;
+}
+
+ .text-wrapper-5 {
+  color: #17d792;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+}
+
+ .title-2 {
+  align-self: stretch;
+  color: #ffffffe6;
+  font-family: "Inder", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+}
+
+ .photos {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 40px;
+  position: relative;
+  width: 41px;
+}
+
+ .photoprofile {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 40.92px;
+}
+
+ .icone-connect {
+  background-color: #e4efe9;
+  border-radius: 4.09px/4px;
+  height: 8px;
+  left: 31px;
+  position: absolute;
+  top: 3px;
+  width: 8px;
+}
+
+ .vert {
+  background-color: #0dab5f;
+  border-radius: 3.07px/3px;
+  height: 6px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 6px;
+}

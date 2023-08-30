@@ -1,0 +1,655 @@
+.new-invoice {
+    align-items: flex-start;
+    background-color: #143094;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1263px;
+    position: relative;
+  }
+  
+  .new-invoice .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 30px;
+    padding: 0px 24px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 21px;
+    position: relative;
+  }
+  
+  .new-invoice .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 21px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .header-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #fcfcff3d;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 26px;
+    padding: 0px 0px 17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .header {
+    align-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    height: 53px;
+    justify-content: space-between;
+    padding: 13px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .guidetitle {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+    width: 215.05px;
+  }
+  
+  .new-invoice .guide {
+    color: transparent;
+    font-family: "Inder", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .new-invoice .span {
+    color: #ddd3d3;
+  }
+  
+  .new-invoice .text-wrapper-5 {
+    color: #ffffff;
+  }
+  
+  .new-invoice .text-wrapper-6 {
+    color: #797cb0;
+  }
+  
+  .new-invoice .text-wrapper-7 {
+    color: #e1d6d66b;
+  }
+  
+  .new-invoice .headerprofile {
+    align-items: center;
+    display: flex;
+    gap: 75px;
+    justify-content: flex-end;
+    position: relative;
+    width: 259px;
+  }
+  
+  .new-invoice .badgeprofile {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 5px;
+    justify-content: flex-end;
+    position: relative;
+    width: 175px;
+  }
+  
+  .new-invoice .nameprofile {
+    align-items: flex-end;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3px;
+    position: relative;
+  }
+  
+  .new-invoice .name {
+    align-self: stretch;
+    color: transparent;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .new-invoice .text-wrapper-8 {
+    color: #14d8d8;
+  }
+  
+  .new-invoice .title-2 {
+    align-self: stretch;
+    color: #cfc3c3;
+    font-family: "Inder", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: right;
+  }
+  
+  .new-invoice .photos {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40px;
+    position: relative;
+    width: 41px;
+  }
+  
+  .new-invoice .photoprofile {
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 40.92px;
+  }
+  
+  .new-invoice .icone-connect {
+    background-color: #e4efe9;
+    border-radius: 4.09px/4px;
+    height: 8px;
+    left: 31px;
+    position: absolute;
+    top: 3px;
+    width: 8px;
+  }
+  
+  .new-invoice .vert {
+    background-color: #0dab5f;
+    border-radius: 3.07px/3px;
+    height: 6px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 6px;
+  }
+  
+  .new-invoice .frame-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .div-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    padding: 0px 0px 0px 19px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .text-wrapper-9 {
+    color: #f9f0fa;
+    flex: 1;
+    font-family: "Kanit", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -13px;
+    position: relative;
+  }
+  
+  .new-invoice .frame-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #1c1a1a6e;
+    border-radius: 5px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 43px;
+    padding: 59px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-5 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 136px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 0px 0px 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .h-1 {
+    align-self: stretch;
+    color: #f9f0fa;
+    font-family: "Kanit", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -13px;
+    position: relative;
+  }
+  
+  .new-invoice .receipt-jan {
+    align-self: stretch;
+    color: #f9f0faba;
+    font-family: "Kanit", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .new-invoice .frame-7 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .p {
+    color: transparent;
+    flex: 1;
+    font-family: "Kanit", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -13px;
+    position: relative;
+  }
+  
+  .new-invoice .text-wrapper-10 {
+    color: #f9f0faba;
+  }
+  
+  .new-invoice .text-wrapper-11 {
+    color: #ef90fff0;
+    font-size: 18px;
+  }
+  
+  .new-invoice .total-amount {
+    color: transparent;
+    flex: 1;
+    font-family: "Kanit", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -13px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .new-invoice .text-wrapper-12 {
+    color: #f090ff;
+    font-size: 20px;
+  }
+  
+  .new-invoice .frame-8 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 26px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .tableproduct {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5px 65px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-10 {
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #fffbfb;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 0px 0px 18px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-11 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .new-invoice .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .new-invoice .frame-12 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .new-invoice .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .new-invoice .bodytable {
+    align-items: center;
+    align-self: stretch;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #fbf8f84c;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    padding: 0px 0px 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .frame-13 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .new-invoice .text-wrapper-15 {
+    color: #ffffffd1;
+    font-family: "Inder", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .new-invoice .text-wrapper-16 {
+    color: #ffffff63;
+    font-family: "Imprima", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .new-invoice .text-wrapper-17 {
+    color: #ffffffd1;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .new-invoice .text-wrapper-18 {
+    color: #ffffffd1;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .new-invoice .frame-14 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 26px;
+    padding: 0px 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .taxes {
+    color: #f9f0faba;
+    flex: 1;
+    font-family: "Kanit", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -3.5px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .new-invoice .frame-15 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #fff9f940;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 41px;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+    width: 56px;
+  }
+  
+  .new-invoice .frame-16 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #ffffff24;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    padding: 10px 14px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .text-wrapper-19 {
+    color: #ffffff63;
+    font-family: "Imprima", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -4.5px;
+    margin-right: -4.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .new-invoice .frame-17 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #fff9f940;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 41px;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+    width: 164px;
+  }
+  
+  .new-invoice .frame-18 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #ffffff24;
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 14px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .new-invoice .text-wrapper-20 {
+    color: #f090ffba;
+    flex: 1;
+    font-family: "Kanit", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -2.5px;
+    margin-top: -4.5px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .new-invoice .text-wrapper-21 {
+    color: #ffffff63;
+    font-family: "Imprima", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .new-invoice .text-wrapper-22 {
+    color: #f090ffba;
+  }
+  
+  .new-invoice .text-wrapper-23 {
+    color: #f090ffba;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,250 @@
+Link {
+width: 200px;
+}
+.link{
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+}
+
+.linkFlex{
+  top: 0;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.lienvide{
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 79%;
+  position: absolute;
+  z-index: 1;
+}
+.Inputchamp{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: aliceblue;
+    width: 100%;
+}
+::placeholder{
+    color: #ffffff63;
+}
+select{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: aliceblue;
+    width: 100%;
+}
+
+
+
+.popupmsg {
+    transform: scale(0.9);
+    border-radius: 8px;
+    background: #f1eded;
+    position: absolute;
+    z-index: 11;
+    left: 40%;
+    top: 10%;
+    height: 195px;
+    width: 424px;
+  }
+  
+   .dialogue {
+    align-items: flex-start;
+    background-color: #c4b4c94c;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    overflow: hidden;
+    padding: 24px 99px 24px 31px;
+    position: relative;
+     width: 424px;
+  }
+  
+   .msge {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    position: relative;
+    width: fit-content;
+  }
+  
+   .texttitle {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+   .textp {
+    color: #000000;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+   .confirm {
+    align-items: flex-start;
+    display: flex;
+    gap: 46px;
+    margin-right: -68px;
+    position: relative;
+    width: fit-content;
+  }
+  
+   .btnconfirm {
+    cursor: pointer;
+    align-items: center;
+    background-color: #2e3ecd;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 14px 54px;
+    position: relative;
+    width: fit-content;
+  }
+  
+   .titleconfirm {
+    color: #fcf6f6;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+   .close {
+    cursor: pointer;
+    align-items: center;
+    background-color: #f75050;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 14px 54px;
+    position: relative;
+    width: 134px;
+  }
+  
+  .textclose {
+    color: #fdf9f9;
+    font-family: "Inder", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -19.5px;
+    margin-right: -19.5px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .iconeclose {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 394px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+  }
+  
+
+
+  p{
+    color: #dd0892;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .historyTitle {
+    color: #1693edc2;
+    font-family: "Imprima", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+    margin-right: 20px;
+  }
+  span{
+    color: #f1eded;
+  }
+  .pagination{
+    width: fit-content;
+    padding: 5px;
+    color: #f1eded;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+   .information {
+    color: #ffffff99;
+    font-family: "Inder", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    text-align: right;
+  }
+  .Select{
+    color: #000000;
+    background: #000;
+    text-align: left;
+    width: 300px;
+    background: transparent;
+    border: none;
+  }
+  .Inputinvoice{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #f1eded;
+    font-size: 18px;
+    text-align: center;
+  }
+  .images-2
+  {
+    margin-left: 15px;
+  }
+  .INPUTTAXE{
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff63;
+  }
